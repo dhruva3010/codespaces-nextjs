@@ -9,5 +9,12 @@ Everything you do here is contained within this one codespace. There is no repos
 To run this application:
 
 ```
-npm run dev
+yarn next dev
+```
+
+# Docker file setup for next.js
+
+```
+docker build . -t nextjs-demo
+docker run -p 3000:3000 nextjs-deno
 ```
