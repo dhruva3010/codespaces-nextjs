@@ -18,3 +18,10 @@ yarn next dev
 docker build . -t nextjs-demo
 docker run -p 3000:3000 nextjs-deno
 ```
+
+## Docker compose file
+
+```
+docker-compose build
+docker-compose up
+```
